@@ -1,8 +1,8 @@
 streamlit==1.13.0
 plotly==5.11.0
-scikit-learn==1.2.0
-pandas==1.5.2
-fpdf==1.7.2
-numpy==1.24.0         # Required by scikit-learn and pandas
-matplotlib==3.7.1     # Needed for visualizations
-pyarrow>=6.0.0        # For pandas compatibility (Streamlit Cloud requirement)
+scikit-learn==1.4.0  # Updated to version compatible with Python 3.12
+pandas==2.0.3        # Updated for compatibility
+numpy==1.26.0        # Required by scikit-learn
+fpdf2==4.0.0         # More maintained fork of fpdf
+matplotlib==3.8.0    # For visualizations
+pyarrow>=14.0.0      # Required by Streamlit Cloud
